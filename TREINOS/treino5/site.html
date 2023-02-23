@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Site de Notícias de Futebol</title>
+    <!-- Adicione o bootstrap para estilização e recursos adicionais -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      /* Adicione a paleta de cores verde, branco e amarelo */
+      :root {
+        --primary-color: #228B22;
+        --secondary-color: white;
+        --accent-color: #FFFF00;
+      }
+      /* Aplique as cores às seções do site */
+      header {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 1em;
+      }
+      main {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        padding: 1em;
+      }
+      footer {
+        background-color: var(--accent-color);
+        color: var(--secondary-color);
+        padding: 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Notícias de Futebol</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#ultimas-noticias">Últimas Notícias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos">Vídeos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="ultimas-noticias">
+        <h

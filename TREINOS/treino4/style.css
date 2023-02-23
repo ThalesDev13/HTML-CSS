@@ -1,0 +1,134 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+
+ @font-face {
+        font-family: 'idroid';
+        src: url( 'idroid.otf') format(opentype); 
+        font-weight :normal;
+        font-style :normal;
+    }
+
+    body {
+        background-color: rgb(252, 251, 216);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+       
+        background: linear-gradient(to bottom, #55b955, #1d1c1c);
+        padding: 30px;
+        margin: 0px;
+        
+          
+    }
+
+    header h1 {
+        
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        text-align: center;
+        margin: 10px;
+        font-size: 30px;
+
+        
+    }
+
+    header h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        height: 10px;
+        margin: 10px;
+        height: 50px;
+        font-size: 20px;
+      
+    }
+
+    nav a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        border: 10px;
+        margin: 10px;
+        display: inline;
+
+    }
+
+    main {
+        background-color: white;
+        padding: 30px;
+        margin: 0px 100px;
+        box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.473);
+        border-radius: 10px;
+
+    }
+
+    main h1{
+        font-family: 'idroid';
+        color: darkgreen;
+        font-size: 35px;
+
+    }
+
+    main h2{
+        font-family: 'idroid';
+        color: darkgreen;
+        background-color: rgb(100, 207, 100);
+
+    }
+
+    main p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    span {
+        color: darkgreen;
+        background-color: rgb(100, 207, 100);
+    }
+
+    img.Idroid{
+        width: 1092px;
+        height: 367px;
+    }
+
+    nav a:hover {
+        background-color: #55b955;
+        color: darkgreen;
+        font-weight: bolder;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    img.irina{
+        width: 1058px;
+        height: 305px;
+
+    }
+
+    img.bugdroid{
+        width: 500px;
+        height: 300px;
+
+    }
+
+ section.extra h2{
+    padding: 10px;
+background-color: darkgreen;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 10px 10px 0px 0px;
+ }
+
+ section.extra {
+    background-color: rgb(149, 255, 149);
+    border-radius: 10px;
+ }
+
+ footer {
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+ }

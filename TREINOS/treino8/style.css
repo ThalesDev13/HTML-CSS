@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{--fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;}
+
+    body{
+        height: 96vh;
+    }
+
+    header{
+        background-color: black;
+        color: white;
+        padding: 65px;
+        text-align: center;
+        
+
+    }
+
+    header h1{
+        font-family: var(--fonte1);
+        font-size: 80px;
+        font-weight: bold;
+        
+    }
+
+    header p{
+        color: white;
+        font-family: var(--fonte1);
+    }
+
+    header a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: var(--fonte1);
+    }
+
+    header a:hover{
+        text-decoration: underline;
+    }
+    
+    main {
+        font-family: var(--fonte3);
+        font-size: 3.5vw;
+        margin: 40px;
+        
+    }
+
+    section.img1{
+        background-image: url(imagens/background001.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: -40px;
+        
+    }
+
+    section p.texto1{
+        
+        color: white;
+        background-size: 40px;
+    }
+
+    section p.texto2{
+        background-color: rgba(0, 0, 0, 0.288);
+    }
+
+    

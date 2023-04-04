@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-size: 100%;
+    display: block;
+    margin: auto;
+}
+
+img.iphone{
+    position: absolute;
+    left: 39.7%;
+    bottom: 12.3%;
+}
+
+img.home{
+    width: 60px;
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 90%;
+
+}
+
+
+img.youtube{
+    width: 60px;
+    background-color: rgb(92, 8, 8);
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 80%;
+}
+
+img.github{
+    width: 60px;
+    background-color: rgb(8, 92, 15);
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 70%;
+}
+
+img.insta{
+    width: 60px;
+    background-color: rgb(173, 6, 76);
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 60%;
+}
+
+img.tt{
+    width: 60px;
+    background-color: rgb(5, 100, 107);
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 50%;
+}
+
+img.face{
+    width: 60px;
+    background-color: rgb(14, 8, 92);
+    border-radius: 30px;
+    position: absolute;
+    left: 95%;
+    bottom: 40%;
+}
+
+iframe{
+    position: absolute;
+    left: 41.2%;
+    bottom: 22.3%;
+    width: 265px;
+    height: 470px;
+}
+
+.a{
+    background-position: top;
+}
